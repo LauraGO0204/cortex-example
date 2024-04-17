@@ -542,7 +542,7 @@ namespace CortexAccess
             {
                 param.Add("license", licenseID);
             }
-            param.Add("debit", debitNumber);
+            param.Add("debit", 1);
             SendTextMessage(param, "authorize", true);
         }
 
